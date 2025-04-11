@@ -1,0 +1,61 @@
+# Node dependencies
+node_modules/
+
+# Remix build artifacts
+/build/
+/public/build/
+/.cache/
+
+# Environment variables
+# Never commit sensitive keys!
+.env*
+!.env.example
+!.env.template
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test results and coverage
+/coverage/
+*.lcov
+
+# Production secrets (if any - should ideally be in .env)
+# secrets/
+
+# Local database files (e.g., SQLite for development)
+*.sqlite
+*.sqlite-journal
+
+# Deployment specific files (adjust based on your provider)
+.vercel/
+.netlify/
+/workers-dist/ # For Cloudflare Workers
+
+.react-router/
+
+# Optional: TypeScript build output (if separate from Remix build)
+# dist/
+# *.tsbuildinfo

@@ -1,0 +1,173 @@
+{
+  "admin": {
+    "languages": {
+      "not-selected": "翻訳を行う言語を選択してください",
+      "add": {
+        "button-label": "言語を追加",
+        "dialog": {
+          "title": "言語を追加",
+          "description": "新しい言語(翻訳先)を追加します。"
+        }
+      }
+    }
+  },
+  "editor": {
+    "original": "原文",
+    "translated": "翻訳",
+    "next": "次のページ",
+    "back": "前のページ",
+    "nothing": "このページには何もないようです(´・ω・`)",
+    "save": {
+      "label": "変更を送信",
+      "sending": "送信中...",
+      "error": {
+        "description": "変更の送信中にエラーが発生しました。"
+      }
+    },
+    "revert": {
+      "label": "変更を破棄する(取り消し不可)",
+      "cancel": "キャンセル",
+      "run": "変更を破棄",
+      "title": "本当に変更を破棄しますか？",
+      "description": "変更した内容がすべてリセットされ取り消すことはできません。"
+    },
+    "sidebar": {
+      "translations": {
+        "original": "元のテキスト",
+        "translations": "翻訳一覧",
+        "regex": {
+          "label": "正規表現",
+          "description": "正規表現のプレースホルダなどが含まれるコンテンツです。"
+        },
+        "child": {
+          "label": "子要素",
+          "description": "親要素が翻訳された場合にのみ実行される翻訳です。すべての翻訳に適用されるわけではなく特定のアイテムの特定の部分のみなどに使用されます。"
+        },
+        "error": {
+          "title": "エラー",
+          "description": "翻訳データの取得中にエラーが発生しました。\n\nエラーが続いている場合は\n時間を開けてからもう一度試してください。",
+          "refresh": "再読み込み"
+        },
+        "status": {
+          "accepted": {
+            "label": "承認済",
+            "description": "承認者によって承認された翻訳です。本番環境では、この翻訳が優先的に使用されます。"
+          },
+          "needsReview": {
+            "label": "要レビュー",
+            "description": "クリック操作やURLを含むコンテンツなど、内容の確認が必要な翻訳です。承認されるまでユーザーには表示されません。"
+          },
+          "pending": {
+            "label": "コミュニティ",
+            "description": "コミュニティメンバーから投稿された翻訳で、まだ承認されていません。"
+          },
+          "rejected": {
+            "label": "却下済",
+            "description": "承認者によって却下された翻訳です。これは不適切な翻訳に付くステータスではなく、他の翻訳が採用された場合なども含まれます。"
+          }
+        },
+        "vote": {
+          "success": "投票に成功しました",
+          "failed": "投票に失敗しました。"
+        },
+        "report": {
+          "label": "報告"
+        },
+        "delete": {
+          "label": "削除",
+          "title": "本当に削除しますか？",
+          "description": "この翻訳はWynnscribeサービス上から数日以内に完全に削除されます。⚠️この操作は取り消せません。",
+          "run": "削除",
+          "cancel": "キャンセル",
+          "success": "正常に削除されました。",
+          "failed": "削除中にエラーが発生しました。"
+        },
+        "approve": {
+          "label": "承認"
+        },
+        "reject": {
+          "label": "却下"
+        },
+        "upvote": {
+          "label": "高く評価"
+        },
+        "downvote": {
+          "label": "低く評価"
+        },
+        "rating": "評価"
+      }
+    }
+  },
+  "original": {
+    "errors": {
+      "no-language": {
+        "card": {
+          "title": "言語が選択してください",
+          "description": "翻訳を開始するには右上のセレクターたか翻訳先の言語を選択する必要があります。"
+        }
+      }
+    },
+    "add": {
+      "dialog": {
+        "title": "翻訳元を追加",
+        "description": "翻訳元のテキストとそのフィルターなどを設定します",
+        "success": "原文を追加しました",
+        "error": "原文の追加中にエラーが発生しました。",
+        "no-project": "プロジェクトが選択されていません。",
+        "project-placeholder": "プロジェクトを選択してください。"
+      }
+    }
+  },
+  "sidebar": {
+    "close": {
+      "toggle-label": "サイドバーを切り替え"
+    },
+    "projects": {
+      "label": "プロジェクト",
+      "search-placeholder": "プロジェクト名から検索",
+      "add": {
+        "button-label": "プロジェクトを追加",
+        "dialog": {
+          "title": "プロジェクトを追加",
+          "description": "新しいプロジェクトを追加します。"
+        }
+      }
+    }
+  },
+  "index": {
+    "welcome": {
+      "label": "ようこそ！",
+      "wynnscribe": {
+        "label": "Wynnscribe",
+        "description": "Wynnscribeへようこそ！\nこのサービスは、Wynncraftの会話文、UI、クエストなどを、コミュニティと協力して翻訳するために開発されました。\n翻訳を開始するには左側のメニューからプロジェクトを選択してください。"
+      },
+      "community": {
+        "label": "コミュニティ",
+        "description": "公式コミュニティは現在準備中です。\nサポートが必要な場合は、DiscordまたはTwitter(X)のDMにてご連絡ください。",
+        "discord": "Discord",
+        "twitter": "Twitter(X)",
+        "copied": "コピーしました"
+      },
+      "mods": {
+        "label": "Modを利用する",
+        "description": "ModはModrinthからダウンロードできます。\n翻訳データはModが自動的に更新するため、頻繁にダウンロードし直す必要はありません。\nデータは1日に1〜2回程度更新されます。",
+        "modrinth": {
+          "label": "Modrinth"
+        }
+      }
+    },
+    "admin": {
+      "label": "管理者向け機能",
+      "export": {
+        "label": "翻訳ファイルを生成",
+        "description": "データベース内の翻訳データから翻訳ファイルを生成します。\n非常に重い処理なので基本的にはボタンを使用しないでください。\n使用しない場合でも一日に一度は更新されます。",
+        "run": "生成",
+        "exported": "エクスポートが完了しました",
+        "error": "エラーが発生しました。"
+      }
+    }
+  },
+  "button": {
+    "send": "送信"
+  }
+}
